@@ -1,0 +1,2075 @@
+hr.clear{
+	visibility: hidden;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+	border: 0px;
+}
+.nzoption_disabled{text-decoration:line-through;}
+
+.multiple_dragAdrop_nzselector .nzselectoroptions,
+.multiple_nzselector .nzselectoroptions{
+	position: inherit !important;
+}
+
+
+/***************************CSS MULTIPLE SELECTOR  DragADrop ***************************************/
+.multiple_dragAdrop_nzselector .nzselectoroptions{
+	float:left;
+}
+.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+	padding: 10px;
+	min-height: 100px;
+	float: left;
+}
+.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected .returnmyposition{ float:right;}
+
+/***************************************************************************************************
+  *****************************************ALL THEMES********************************************
+  **************************************************************************************************
+  ************************************************************************************************** */
+.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	min-width: 40px;
+}
+.nzselectorheader{
+	padding:5px;
+	border: 0px;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.nzselectoroptions{
+ 	padding:10px;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+		.nzselectoroptions .nzlabel{
+					font-style: italic;
+					width:100%;
+		 }
+		.nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nzselectoroptions .selected{
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		-nzselectoroptions .nzoption:hover{
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+
+ .multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	font-size: 0.9em;	
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+ }
+	 .multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+	 }
+		 .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nzselectoroptions_d2d_selected .nzoption:hover{
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+
+
+/******************************************************************************************
+	*************************************************************************************
+	*************************************************************************************
+	**************************************DEFAULT THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+
+ .nz_theme_default.nzselector{ 	color:#33342D; }
+
+ .nz_theme_default .nzselectorheader{
+	background-image: url('Media/default_arrow.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#F4F4F4;
+	border-bottom: 1px solid #848484;
+	border-right: 1px solid #848484;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #B5B5B5, 0.9px 0.9px #B5B5B5;
+}
+ .nz_theme_default .nzselectoroptions{
+	color: #595959;
+	border-bottom: 3px solid #848484;
+	border-right: 1px solid #848484;
+	background:#F4F4F4;
+}
+
+		 .nz_theme_default .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #848484;
+		}
+		 .nz_theme_default .nzselectoroptions .selected{
+			color:gold;
+			background:#595959;
+		}
+		 .nz_theme_default .nzselectoroptions .nzoption:hover{
+			background:white;
+		}
+
+ .nz_theme_default.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	color: #fff;
+	border-bottom: 3px solid #595959;
+	border-right: 1px solid #595959;
+	background:#848484;
+ }
+	 .nz_theme_default.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		border-bottom:1px solid gold;
+			color:gold;
+	 }		 
+		 .nz_theme_default .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			color:#6F6F6F;
+		}
+
+/*************************************************************************************
+	**************************************Aetonyx THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_aetonyx.nzselector{ color:#fff; }
+ .nz_theme_aetonyx .nzselectorheader{
+ 	background-image: url('Media/icon_10_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#444B3D;
+	border-bottom: 1px solid #45D55C;
+	border-right: 1px solid #45D55C;
+}
+		
+ .nz_theme_aetonyx .nzselectoroptions{
+ 	color: #595959;
+	border-bottom: 3px solid #45D55C;
+	border-right: 1px solid #45D55C;
+	background:#444B3D;
+}
+		 .nz_theme_aetonyx .nzselectoroptions .nzlabel{
+			border-bottom:1px solid #45D55C;
+			color:#45D55C;
+		}
+		 .nz_theme_aetonyx .nzselectoroptions .nzoption{
+			color:#A5C8AA;
+		}
+		 .nz_theme_aetonyx .nzselectoroptions .selected{
+			color:#fff;
+			background:#45D55C;
+		}
+		 .nz_theme_aetonyx .nzselectoroptions .nzoption:hover{
+		 	color:#45D55C;
+		 	background: #fff;
+			}
+ .nz_theme_aetonyx.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	color: #595959;
+	border-bottom: 3px solid #444B3D;
+	border-right: 1px solid #444B3D;
+	background:#45D55C;
+ }
+	 .nz_theme_aetonyx.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		border-bottom:1px solid #FFE5C5;
+			color:#FFE5C5;
+	 }		 
+		 .nz_theme_aetonyx .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			color:#6F6F6F;
+		}
+
+
+/*************************************************************************************
+	**************************************Brontosaurus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_brontosaurus.nzselector{
+	color:#2F2219;
+}
+ .nz_theme_brontosaurus .nzselectorheader{
+	background-image: url('Media/icon_11_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#D74A2C;
+	border-bottom: 1px solid #2F2219;
+	border-right: 1px solid #2F2219;
+	text-shadow: 0.8px 0.9px #B5B5B5, 0.9px 0.9px #B5B5B5;
+}
+		
+ .nz_theme_brontosaurus .nzselectoroptions{
+ 	color: #fff;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #2F2219;
+	border-right: 1px solid #2F2219;
+	background:#D74A2C;
+}
+		 .nz_theme_brontosaurus .nzselectoroptions .nzlabel{
+			border-bottom:1px solid #2F2219;
+			color:#2F2219;
+		}
+		 
+		 .nz_theme_brontosaurus .nzselectoroptions .selected{
+			color:gold;
+			background:#2F2219;
+			}
+		 .nz_theme_brontosaurus .nzselectoroptions .nzoption:hover{
+			background:white;
+			color:#2F2219;
+		}
+ .nz_theme_brontosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	color: #D74A2C;
+	border-bottom: 3px solid #D74A2C;
+	border-right: 1px solid #D74A2C;
+	background:#2F2219;
+ }
+	 .nz_theme_brontosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		border-bottom:1px solid #FFE5C5;
+			color:#FFE5C5;
+	 }		 
+		 .nz_theme_brontosaurus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			color:#6F6F6F;
+		}
+
+
+
+/*************************************************************************************
+	**************************************Campylodon THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_campylodon.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#DB4E30;
+	min-width: 40px;
+}
+ .nz_theme_campylodon .nzselectorheader{
+	background-image: url('Media/icon_11_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#2F2219;
+	border-bottom: 1px solid #DB4E30;
+	border-right: 1px solid #DB4E30;
+	text-shadow: 0.8px 0.9px #2F2219, 0.9px 0.9px #2F2219;
+}
+		
+ .nz_theme_campylodon .nzselectoroptions{
+	color: #fff;
+	border-bottom: 3px solid #DB4E30;
+	border-right: 1px solid #DB4E30;
+	background:#2F2219;
+}
+		 .nz_theme_campylodon .nzselectoroptions .nzlabel{
+			border-bottom:1px solid #DB4E30;
+			color:#DB4E30;
+		}
+		 .nz_theme_campylodon .nzselectoroptions .selected{
+			color:#FFE5C5;
+			background:#DB4E30;
+		}
+		 .nz_theme_campylodon .nzselectoroptions .nzoption:hover{
+			background:white;
+			color:#2F2219;
+		}
+ .nz_theme_campylodon.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	color: #2F2219;
+	border-bottom: 3px solid #FFE5C5;
+	border-right: 1px solid #FFE5C5;
+	background:#DB4E30;
+ }
+	 .nz_theme_campylodon.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #FFE5C5;
+			color:#FFE5C5;
+	 }
+		 .nz_theme_campylodon .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			color:#6F6F6F;
+		}
+
+
+/*************************************************************************************
+	**************************************DARK THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_dark.nzselector,
+ .nz_theme_DARK.nzselector,
+ .nz_theme_Dark.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+
+ .nz_theme_dark .nzselectorheader,
+ .nz_theme_DARK .nzselectorheader,
+ .nz_theme_Dark .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_4_25x25.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#313131;
+	border: 0px;
+	border-bottom: 1px solid #848484;
+	border-right: 1px solid #848484;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #8E8E8E, 0.9px 0.9px #8E8E8E;
+}
+		
+ .nz_theme_dark .nzselectoroptions,
+ .nz_theme_DARK .nzselectoroptions,
+ .nz_theme_Dark .nzselectoroptions{
+ 	padding:10px;
+	color: #595959;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #848484;
+	border-right: 1px solid #848484;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#313131;
+}
+
+		 .nz_theme_dark .nzselectoroptions .nzlabel,
+		 .nz_theme_DARK .nzselectoroptions .nzlabel,
+		 .nz_theme_Dark .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#FFE5C5;
+		}
+		 .nz_theme_dark .nzselectoroptions .nzoption,
+		 .nz_theme_DARK .nzselectoroptions .nzoption,
+		 .nz_theme_Dark .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_dark .nzselectoroptions .selected,
+		 .nz_theme_DARK .nzselectoroptions .selected,
+		 .nz_theme_Dark .nzselectoroptions .selected{
+			color:gold;
+			background:#595959;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_dark .nzselectoroptions .nzoption:hover,
+		 .nz_theme_DARK .nzselectoroptions .nzoption:hover,
+		 .nz_theme_Dark .nzselectoroptions .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+ .nz_theme_dark.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_DARK.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Dark.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #848484;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #848484;
+	border-right: 1px solid #848484;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#595959;
+ }
+	 .nz_theme_dark.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_DARK.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Dark.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_dark .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_DARK .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Dark .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_dark .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_DARK .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Dark .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+/*************************************************************************************
+	**************************************Dryptosauroides THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_dryptosauroides.nzselector,
+ .nz_theme_DRYPTOSAUROIDES.nzselector,
+ .nz_theme_Dryptosauroides.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+ .nz_theme_dryptosauroides .nzselectorheader,
+ .nz_theme_DRYPTOSAUROIDES .nzselectorheader,
+ .nz_theme_Dryptosauroides .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_13_25x25.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#5EA9F5;
+	border: 0px;
+	border-bottom: 1px solid #797979;
+	border-right: 1px solid #797979;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #2F2219, 0.9px 0.9px #2F2219;
+}
+		
+ .nz_theme_dryptosauroides .nzselectoroptions,
+ .nz_theme_DRYPTOSAUROIDES .nzselectoroptions,
+ .nz_theme_Dryptosauroides .nzselectoroptions{
+ 	padding:10px;
+	color: #fff;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #797979;
+	border-right: 1px solid #797979;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#5EA9F5;
+}
+     .nz_theme_dryptosauroides .nzselectoroptions .nzlabel,
+     .nz_theme_DRYPTOSAUROIDES .nzselectoroptions .nzlabel,
+		 .nz_theme_Dryptosauroides .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #797979;
+			color:#797979;
+		}
+		 .nz_theme_dryptosauroides .nzselectoroptions .nzoption,
+		 .nz_theme_DRYPTOSAUROIDES .nzselectoroptions .nzoption,
+		 .nz_theme_Dryptosauroides .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_dryptosauroides .nzselectoroptions .selected,
+		 .nz_theme_DRYPTOSAUROIDES .nzselectoroptions .selected,
+		 .nz_theme_Dryptosauroides .nzselectoroptions .selected{
+			color:#fff;
+			background:#797979;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_dryptosauroides .nzselectoroptions .nzoption:hover,
+		 .nz_theme_DRYPTOSAUROIDES .nzselectoroptions .nzoption:hover,
+		 .nz_theme_Dryptosauroides .nzselectoroptions .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#5EA9F5;
+		}
+ .nz_theme_dryptosauroides.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_DRYPTOSAUROIDES.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Dryptosauroides.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #fff;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #5EA9F5;
+	border-right: 1px solid #5EA9F5;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#797979;
+ }
+	 .nz_theme_dryptosauroides.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_DRYPTOSAUROIDES.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Dryptosauroides.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #5EA9F5;
+			color:#5EA9F5;
+	 }
+		 .nz_theme_dryptosauroides .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_DRYPTOSAUROIDES .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Dryptosauroides .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_dryptosauroides .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_DRYPTOSAUROIDES .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Dryptosauroides .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+/*************************************************************************************
+	**************************************Euacanthus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_euacanthus.nzselector,
+ .nz_theme_EUACANTHUS.nzselector,
+ .nz_theme_Euacanthus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+
+ .nz_theme_euacanthus .nzselectorheader,
+ .nz_theme_EUACANTHUS .nzselectorheader,
+ .nz_theme_Euacanthus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_13_25x25.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#6F6F6F;
+	border: 0px;
+	border-bottom: 1px solid #5EA9F5;
+	border-right: 1px solid #5EA9F5;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #2F2219, 0.9px 0.9px #2F2219;
+}
+		
+ .nz_theme_euacanthus .nzselectoroptions,
+ .nz_theme_EUACANTHUS .nzselectoroptions,
+ .nz_theme_Euacanthus .nzselectoroptions{
+ 	padding:10px;
+	color: #fff;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #5EA9F5;
+	border-right: 1px solid #5EA9F5;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#6F6F6F;
+}
+		 .nz_theme_euacanthus .nzselectoroptions .nzlabel,
+		 .nz_theme_EUACANTHUS .nzselectoroptions .nzlabel,
+		 .nz_theme_Euacanthus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #5EA9F5;
+			color:#5EA9F5;
+		}
+		 .nz_theme_euacanthus .nzselectoroptions .nzoption,
+		 .nz_theme_EUACANTHUS .nzselectoroptions .nzoption,
+		 .nz_theme_Euacanthus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_euacanthus .nzselectoroptions .selected,
+		 .nz_theme_EUACANTHUS .nzselectoroptions .selected,
+		 .nz_theme_Euacanthus .nzselectoroptions .selected{
+			color:#fff;
+			background:#5EA9F5;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_euacanthus .nzselectoroptions .nzoption:hover,
+		 .nz_theme_EUACANTHUS .nzselectoroptions .nzoption:hover,
+		 .nz_theme_Euacanthus .nzselectoroptions .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#5EA9F5;
+		}
+ .nz_theme_euacanthus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_EUACANTHUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Euacanthus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #6F6F6F;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #6F6F6F;
+	border-right: 1px solid #6F6F6F;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#5EA9F5;
+ }
+	 .nz_theme_euacanthus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_EUACANTHUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Euacanthus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_euacanthus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_EUACANTHUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Euacanthus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_euacanthus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_EUACANTHUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Euacanthus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+		/*************************************************************************************
+	**************************************Futabasaurus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_futabasaurus.nzselector,
+ .nz_theme_FUTABASAURUS.nzselector,
+ .nz_theme_Futabasaurus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+
+ .nz_theme_futabasaurus .nzselectorheader,
+ .nz_theme_FUTABASAURUS .nzselectorheader,
+ .nz_theme_Futabasaurus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_13_25x25.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#E1E1E3;
+	border: 0px;
+	border-bottom: 1px solid #5EA9F5;
+	border-right: 1px solid #5EA9F5;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #2F2219, 0.9px 0.9px #2F2219;
+}
+
+ .nz_theme_futabasaurus .nzselectoroptions,
+ .nz_theme_FUTABASAURUS .nzselectoroptions,
+ .nz_theme_Futabasaurus .nzselectoroptions{
+ 	padding:10px;
+	color: #5EA9F5;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #5EA9F5;
+	border-right: 1px solid #5EA9F5;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#E1E1E3;
+}
+
+		 .nz_theme_futabasaurus .nzselectoroptions .nzlabel,
+		 .nz_theme_FUTABASAURUS .nzselectoroptions .nzlabel,
+		 .nz_theme_Futabasaurus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #5EA9F5;
+			color:#6F6F6F;
+		}
+		 .nz_theme_futabasaurus .nzselectoroptions .nzoption,
+		 .nz_theme_FUTABASAURUS .nzselectoroptions .nzoption,
+		 .nz_theme_Futabasaurus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_futabasaurus .nzselectoroptions .selected,
+		 .nz_theme_FUTABASAURUS .nzselectoroptions .selected,
+		 .nz_theme_Futabasaurus .nzselectoroptions .selected{
+			color:#fff;
+			background:#6F6F6F;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_futabasaurus .nzselectoroptions .nzoption:hover,
+		 .nz_theme_FUTABASAURUS .nzselectoroptions .nzoption:hover,
+		 .nz_theme_Futabasaurus .nzselectoroptions .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+ 
+  
+ .nz_theme_Futabasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_FUTABASAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_futabasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #E1E1E3;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #E1E1E3;
+	border-right: 1px solid #E1E1E3;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#5EA9F5;
+ }
+	 .nz_theme_Futabasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_FUTABASAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_futabasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #6F6F6F;
+			color:#6F6F6F;
+	 }
+		 .nz_theme_futabasaurus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_FUTABASAURUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Futabasaurus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_futabasaurus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_FUTABASAURUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Futabasaurus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+		/*************************************************************************************
+	**************************************Gigantoscelus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+
+ .nz_theme_gigantoscelus.nzselector,
+ .nz_theme_GIGANTOSCELUS.nzselector,
+ .nz_theme_Gigantoscelus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#8FCB85;
+	min-width: 40px;
+}
+ .nz_theme_gigantoscelus .nzselectorheader,
+ .nz_theme_GIGANTOSCELUS .nzselectorheader,
+ .nz_theme_Gigantoscelus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_10_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#FCF9F0;
+	border: 0px;
+	border-bottom: 1px solid #8FCB85;
+	border-right: 1px solid #8FCB85;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #FCF9F0, 0.9px 0.9px #FCF9F0;
+}
+		
+ .nz_theme_gigantoscelus .nzselectoroptions,
+ .nz_theme_GIGANTOSCELUS .nzselectoroptions,
+ .nz_theme_Gigantoscelus .nzselectoroptions{
+ 	padding:10px;
+	color: #4A423F;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #8FCB85;
+	border-right: 1px solid #8FCB85;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#FCF9F0;
+}
+
+		 .nz_theme_gigantoscelus .nzselectoroptions .nzlabel,
+		 .nz_theme_GIGANTOSCELUS .nzselectoroptions .nzlabel,
+		 .nz_theme_Gigantoscelus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #8FCB85;
+			color:#8FCB85;
+		}
+		 .nz_theme_gigantoscelus .nzselectoroptions .nzoption,
+		 .nz_theme_GIGANTOSCELUS .nzselectoroptions .nzoption,
+		 .nz_theme_Gigantoscelus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_gigantoscelus .nzselectoroptions .selected,
+		 .nz_theme_GIGANTOSCELUS .nzselectoroptions .selected,
+		 .nz_theme_Gigantoscelus .nzselectoroptions .selected{
+			color:#8FCB85;
+			background:#4A423F;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_gigantoscelus .nzselectoroptions .nzoption:hover,
+		 .nz_theme_GIGANTOSCELUS .nzselectoroptions .nzoption:hover,
+		 .nz_theme_Gigantoscelus .nzselectoroptions .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#4A423F;
+			background:#8FCB85;
+		}
+ .nz_theme_gigantoscelus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_GIGANTOSCELUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Gigantoscelus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #8FCB85;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #8FCB85;
+	border-right: 1px solid #8FCB85;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#4A423F;
+ }
+	 .nz_theme_gigantoscelus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_GIGANTOSCELUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Gigantoscelus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_gigantoscelus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_GIGANTOSCELUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Gigantoscelus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_gigantoscelus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_GIGANTOSCELUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Gigantoscelus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+		/*************************************************************************************
+	**************************************Harpymimus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_harpymimus.nzselector,
+ .nz_theme_HARPYMIMUS.nzselector,
+ .nz_theme_Harpymimus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#4A423F;
+	min-width: 40px;
+}
+ .nz_theme_harpymimus .nzselectorheader,
+ .nz_theme_HARPYMIMUS .nzselectorheader,
+ .nz_theme_Harpymimus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_16_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#D1CBBB;
+	border: 0px;
+	border-bottom: 1px solid #8FCB85;
+	border-right: 1px solid #8FCB85;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #FCF9F0, 0.9px 0.9px #FCF9F0;
+}
+		
+ .nz_theme_harpymimus .nzselectoroptions,
+ .nz_theme_HARPYMIMUS .nzselectoroptions,
+ .nz_theme_Harpymimus .nzselectoroptions{
+ 	padding:10px;
+	color: #4A423F;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #8FCB85;
+	border-right: 1px solid #8FCB85;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#D1CBBB;
+}
+		 .nz_theme_harpymimus .nzselectoroptions .nzlabel,
+		 .nz_theme_HARPYMIMUS .nzselectoroptions .nzlabel, 	
+		 .nz_theme_Harpymimus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #FCF9F0;
+			color:#FCF9F0;
+		}
+		 .nz_theme_harpymimus .nzselectoroptions .nzoption,
+		 .nz_theme_HARPYMIMUS .nzselectoroptions .nzoption,
+		 .nz_theme_Harpymimus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_harpymimus .nzselectoroptions .selected,
+		 .nz_theme_HARPYMIMUS .nzselectoroptions .selected,
+		 .nz_theme_Harpymimus .nzselectoroptions .selected{
+			color:#8FCB85;
+			background:#FCF9F0;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_harpymimus .nzselectoroptions .nzoption:hover,
+		 .nz_theme_HARPYMIMUS .nzselectoroptions .nzoption:hover,
+		 .nz_theme_Harpymimus .nzselectoroptions .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#4A423F;
+			background:#8FCB85;
+		}
+ .nz_theme_harpymimus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_HARPYMIMUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Harpymimus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #4A423F;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #4A423F;
+	border-right: 1px solid #4A423F;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#8FCB85;
+ }
+	 .nz_theme_harpymimus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_HARPYMIMUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Harpymimus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_harpymimus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_HARPYMIMUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Harpymimus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_harpymimus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_HARPYMIMUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Harpymimus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+		/*************************************************************************************
+	**************************************Iguanasaurus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_iguanasaurus.nzselector,
+ .nz_theme_IGUANASAURUS.nzselector,
+ .nz_theme_Iguanasaurus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#4A423F;
+	min-width: 40px;
+}
+ .nz_theme_iguanasaurus .nzselectorheader,
+ .nz_theme_IGUANASAURUS .nzselectorheader,
+ .nz_theme_Iguanasaurus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_16_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#8FCB85;
+	border: 0px;
+	border-bottom: 1px solid #4A423F;
+	border-right: 1px solid #4A423F;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-shadow: 0.8px 0.9px #FCF9F0, 0.9px 0.9px #FCF9F0;
+}
+		
+ .nz_theme_iguanasaurus .nzselectoroptions,
+ .nz_theme_IGUANASAURUS .nzselectoroptions,
+ .nz_theme_Iguanasaurus .nzselectoroptions{
+ 	padding:10px;
+	color: #4A423F;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #4A423F;
+	border-right: 1px solid #4A423F;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#8FCB85;
+}
+		 .nz_theme_iguanasaurus .nzselectoroptions .nzlabel,
+		 .nz_theme_IGUANASAURUS .nzselectoroptions .nzlabel,
+		 .nz_theme_Iguanasaurus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #FCF9F0;
+			color:#FCF9F0;
+		}
+		 .nz_theme_iguanasaurus .nzselectoroptions .nzoption,
+		 .nz_theme_IGUANASAURUS .nzselectoroptions .nzoption,
+		 .nz_theme_Iguanasaurus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nz_theme_iguanasaurus .nzselectoroptions .nzoption:hover,
+		.nz_theme_IGUANASAURUS .nzselectoroptions .nzoption:hover,
+		.nz_theme_Iguanasaurus .nzselectoroptions .nzoption:hover{		
+			color:#8FCB85;
+			background:#FCF9F0;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_iguanasaurus .nzselectoroptions .selected,
+		 .nz_theme_IGUANASAURUS .nzselectoroptions .selected,
+		 .nz_theme_Iguanasaurus .nzselectoroptions .selected{ 
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#8FCB85;
+			background:#4A423F;
+		}
+ .nz_theme_iguanasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_IGUANASAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Iguanasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #8FCB85;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #8FCB85;
+	border-right: 1px solid #8FCB85;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#4A423F;
+ }
+	 .nz_theme_iguanasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_IGUANASAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Iguanasaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_iguanasaurus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_IGUANASAURUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Iguanasaurus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_iguanasaurus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_IGUANASAURUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Iguanasaurus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+	/*************************************************************************************
+	**************************************Jurapteryx THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_jurapteryx.nzselector,
+ .nz_theme_JURAPTERYX.nzselector,
+ .nz_theme_Jurapteryx.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+ .nz_theme_jurapteryx .nzselectorheader,
+ .nz_theme_JURAPTERYX .nzselectorheader,
+ .nz_theme_Jurapteryx .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_old_3.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#006EAB;
+	border: 0px;
+	border-bottom: 1px solid #00476E;
+	border-right: 1px solid #00476E;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-weight:bold;
+	text-shadow: -1px -1.7px #00476E, 1px 1px #00476E;
+}
+		
+ .nz_theme_jurapteryx .nzselectoroptions,
+ .nz_theme_JURAPTERYX .nzselectoroptions,
+ .nz_theme_Jurapteryx .nzselectoroptions{
+ 	padding:10px;
+	color: #4A423F;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #00476E;
+	border-right: 1px solid #00476E;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#fff;
+}
+		 .nz_theme_jurapteryx .nzselectoroptions .nzlabel,
+		 .nz_theme_JURAPTERYX .nzselectoroptions .nzlabel,
+		 .nz_theme_Jurapteryx .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #006EAB;
+			color:#006EAB;
+		}
+		 .nz_theme_jurapteryx .nzselectoroptions .nzoption,
+		 .nz_theme_JURAPTERYX .nzselectoroptions .nzoption,
+		 .nz_theme_Jurapteryx .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nz_theme_jurapteryx .nzselectoroptions .nzoption:hover,
+		.nz_theme_JURAPTERYX .nzselectoroptions .nzoption:hover,
+		.nz_theme_Jurapteryx .nzselectoroptions .nzoption:hover{		
+			color:#fff;
+			background:#006EAB;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_jurapteryx .nzselectoroptions .selected,
+		 .nz_theme_JURAPTERYX .nzselectoroptions .selected,
+		 .nz_theme_Jurapteryx .nzselectoroptions .selected{ 
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:gold;
+			background:#006EAB;
+		}
+ .nz_theme_jurapteryx.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_JURAPTERYX.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Jurapteryx.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #E0E0E0;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#006EAB;
+ }
+	 .nz_theme_jurapteryx.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_JURAPTERYX.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Jurapteryx.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_jurapteryx .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_JURAPTERYX .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Jurapteryx .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_jurapteryx .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_JURAPTERYX .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Jurapteryx .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+	/*************************************************************************************
+	**************************************Kakuru THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+ .nz_theme_kakuru.nzselector,
+ .nz_theme_KAKURU.nzselector,
+ .nz_theme_Kakuru.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+ .nz_theme_kakuru .nzselectorheader,
+ .nz_theme_KAKURU .nzselectorheader,
+ .nz_theme_Kakuru .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_old_3.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#D21A1E;
+	border: 0px;
+	border-bottom: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-weight:bold;
+	text-shadow: -1px -1.7px #00476E, 1px 1px #00476E;
+}
+		
+ .nz_theme_kakuru .nzselectoroptions,
+ .nz_theme_KAKURU .nzselectoroptions,
+ .nz_theme_Kakuru .nzselectoroptions{
+ 	padding:10px;
+	color: #595959;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#fff;
+}
+		 .nz_theme_kakuru .nzselectoroptions .nzlabel,
+		 .nz_theme_KAKURU .nzselectoroptions .nzlabel,
+		 .nz_theme_Kakuru .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #848484;
+		}
+		 .nz_theme_kakuru .nzselectoroptions .nzoption,
+		 .nz_theme_KAKURU .nzselectoroptions .nzoption,
+		 .nz_theme_Kakuru .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nz_theme_kakuru .nzselectoroptions .nzoption:hover,
+		.nz_theme_KAKURU .nzselectoroptions .nzoption:hover,
+		.nz_theme_Kakuru .nzselectoroptions .nzoption:hover{		
+			color:#fff;
+			background:#D21A1E;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_kakuru .nzselectoroptions .selected,
+		 .nz_theme_KAKURU .nzselectoroptions .selected,
+		 .nz_theme_Kakuru .nzselectoroptions .selected{ 
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#E0E0E0;
+			background:#D21A1E;
+		}
+ .nz_theme_kakuru.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_KAKURU.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Kakuru.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #E0E0E0;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#D21A1E;
+ }
+	 .nz_theme_kakuru.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_KAKURU.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Kakuru.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #fff;
+			color:#fff;
+	 }
+		 .nz_theme_kakuru .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_KAKURU .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Kakuru .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_kakuru .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_KAKURU .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Kakuru .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+	/*************************************************************************************
+	**************************************Lancangjiangosaurus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+
+ .nz_theme_lancangjiangosaurus.nzselector,
+ .nz_theme_LANCANGJIANGOSAURUS.nzselector,
+ .nz_theme_Lancangjiangosaurus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+
+ .nz_theme_lancangjiangosaurus .nzselectorheader,
+ .nz_theme_LANCANGJIANGOSAURUS .nzselectorheader,
+ .nz_theme_Lancangjiangosaurus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_12_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#898989;
+	border: 0px;
+	border-bottom: 1px solid #FF902E;
+	border-right: 1px solid #FF902E;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-weight:bold;
+}
+		
+
+ .nz_theme_lancangjiangosaurus .nzselectoroptions,
+ .nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions,
+ .nz_theme_Lancangjiangosaurus .nzselectoroptions{
+ 	padding:10px;
+	color: #ffffff;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #FF902E;
+	border-right: 1px solid #FF902E;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#898989;
+}
+
+		 .nz_theme_lancangjiangosaurus .nzselectoroptions .nzlabel,
+		 .nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions .nzlabel,
+		 .nz_theme_Lancangjiangosaurus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #FF902E;
+		}
+		 .nz_theme_lancangjiangosaurus .nzselectoroptions .nzoption,
+		 .nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions .nzoption,
+		 .nz_theme_Lancangjiangosaurus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nz_theme_lancangjiangosaurus .nzselectoroptions .nzoption:hover,
+		.nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions .nzoption:hover,
+		.nz_theme_Lancangjiangosaurus .nzselectoroptions .nzoption:hover{		
+			color:#fff;
+			background:#FF902E;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_lancangjiangosaurus .nzselectoroptions .selected,
+		 .nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions .selected,
+		 .nz_theme_Lancangjiangosaurus .nzselectoroptions .selected{ 
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:gold;
+			background:#FF902E;
+		}
+ .nz_theme_lancangjiangosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_LANCANGJIANGOSAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Lancangjiangosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #f4f4f4;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #898989;
+	border-right: 1px solid #898989;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#FF902E;
+ }
+	 .nz_theme_lancangjiangosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_LANCANGJIANGOSAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Lancangjiangosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #6F6F6F;
+			color:#6F6F6F;
+	 }
+		 .nz_theme_lancangjiangosaurus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Lancangjiangosaurus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_lancangjiangosaurus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_LANCANGJIANGOSAURUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Lancangjiangosaurus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+/*************************************************************************************
+	**************************************Metriacanthosaurus THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+
+ .nz_theme_metriacanthosaurus.nzselector,
+ .nz_theme_METRIACANTHOSAURUS.nzselector,
+ .nz_theme_Metriacanthosaurus.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#fff;
+	min-width: 40px;
+}
+
+ .nz_theme_metriacanthosaurus .nzselectorheader,
+ .nz_theme_METRIACANTHOSAURUS .nzselectorheader,
+ .nz_theme_Metriacanthosaurus .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_16_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#d1d95b;
+	border: 0px;
+	border-bottom: 1px solid #d1d95b;
+	border-right: 1px solid #d1d95b;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+		
+
+ .nz_theme_metriacanthosaurus .nzselectoroptions,
+ .nz_theme_METRIACANTHOSAURUS .nzselectoroptions,
+ .nz_theme_Metriacanthosaurus .nzselectoroptions{
+ 	padding:10px;
+	color: #848484;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #d1d95b;
+	border-right: 1px solid #d1d95b;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#f4f4f4;
+}
+
+		 .nz_theme_metriacanthosaurus .nzselectoroptions .nzlabel,
+		 .nz_theme_METRIACANTHOSAURUS .nzselectoroptions .nzlabel,
+		 .nz_theme_Metriacanthosaurus .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #d1d95b;
+		}
+		 .nz_theme_metriacanthosaurus .nzselectoroptions .nzoption,
+		 .nz_theme_METRIACANTHOSAURUS .nzselectoroptions .nzoption,
+		 .nz_theme_Metriacanthosaurus .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nz_theme_metriacanthosaurus .nzselectoroptions .nzoption:hover,
+		.nz_theme_METRIACANTHOSAURUS .nzselectoroptions .nzoption:hover,
+		.nz_theme_Metriacanthosaurus .nzselectoroptions .nzoption:hover{		
+			color:#d1d95b;
+			background:#f4f4f4;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_metriacanthosaurus .nzselectoroptions .selected,
+		 .nz_theme_METRIACANTHOSAURUS .nzselectoroptions .selected,
+		 .nz_theme_Metriacanthosaurus .nzselectoroptions .selected{ 
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#d1d95b;
+		}
+ .nz_theme_metriacanthosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_METRIACANTHOSAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Metriacanthosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #f4f4f4;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#d1d95b;
+ }
+	 .nz_theme_metriacanthosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_METRIACANTHOSAURUS.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Metriacanthosaurus.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #6F6F6F;
+			color:#6F6F6F;
+	 }
+		 .nz_theme_metriacanthosaurus .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_METRIACANTHOSAURUS .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Metriacanthosaurus .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_metriacanthosaurus .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_METRIACANTHOSAURUS .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Metriacanthosaurus .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+/*************************************************************************************
+	**************************************Nuthetes THEME**********************************
+	*************************************************************************************
+*******************************************************************************************/
+
+
+ .nz_theme_nuthetes.nzselector,
+ .nz_theme_NUTHETES.nzselector,
+ .nz_theme_Nuthetes.nzselector{
+	margin:2px;
+	min-height: 20px;
+	cursor:pointer;
+	position:relative;
+	color:#727272;
+	min-width: 40px;
+}
+
+ .nz_theme_nuthetes .nzselectorheader,
+ .nz_theme_NUTHETES .nzselectorheader,
+ .nz_theme_Nuthetes .nzselectorheader{
+	padding:5px;
+	background-image: url('Media/icon_12_40x40.png');
+	background-repeat:no-repeat ;
+	background-position:  97% 50%;
+	background-color:#F8F8F8;
+	border: 0px;
+	border-bottom: 1px solid #E0D7D7;
+	border-right: 1px solid #E0D7D7;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+		
+
+ .nz_theme_nuthetes .nzselectoroptions,
+ .nz_theme_NUTHETES .nzselectoroptions,
+ .nz_theme_Nuthetes .nzselectoroptions{
+ 	padding:10px;
+	color: #727272;
+	font-size: 0.9em;	
+	position:absolute;
+	z-index: 111111111;
+	border-bottom: 3px solid #E0D7D7;
+	border-right: 1px solid #E0D7D7;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#F8F8F8;
+}
+
+		 .nz_theme_nuthetes .nzselectoroptions .nzlabel,
+		 .nz_theme_NUTHETES .nzselectoroptions .nzlabel,
+		 .nz_theme_Nuthetes .nzselectoroptions .nzlabel{
+			font-style: italic;
+			width:100%;
+			border-bottom:1px solid #FF902E;
+			color:#FF902E;
+		}
+		 .nz_theme_nuthetes .nzselectoroptions .nzoption,
+		 .nz_theme_NUTHETES .nzselectoroptions .nzoption,
+		 .nz_theme_Nuthetes .nzselectoroptions .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		.nz_theme_nuthetes .nzselectoroptions .nzoption:hover,
+		.nz_theme_NUTHETES .nzselectoroptions .nzoption:hover,
+		.nz_theme_Nuthetes .nzselectoroptions .nzoption:hover{		
+			color:#fff;
+			background:#727272;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+		 .nz_theme_nuthetes .nzselectoroptions .selected,
+		 .nz_theme_NUTHETES .nzselectoroptions .selected,
+		 .nz_theme_Nuthetes .nzselectoroptions .selected{ 
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:gold;
+			background:#FF902E;
+		}
+
+
+  
+ .nz_theme_nuthetes.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_NUTHETES.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected,
+ .nz_theme_Nuthetes.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected{
+ 	padding:10px;
+	color: #E1E1E3;
+	font-size: 0.9em;	
+	border-bottom: 3px solid #E1E1E3;
+	border-right: 1px solid #E1E1E3;
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background:#FF902E;
+ }
+	 .nz_theme_nuthetes.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_NUTHETES.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label,
+	 .nz_theme_Nuthetes.multiple_dragAdrop_nzselector .nzselectoroptions_d2d_selected label{
+	 		font-style: italic;
+			width:100%;
+			border-bottom:1px solid #6F6F6F;
+			color:#6F6F6F;
+	 }
+		 .nz_theme_nuthetes .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_NUTHETES .nzselectoroptions_d2d_selected .nzoption,
+		 .nz_theme_Nuthetes .nzselectoroptions_d2d_selected .nzoption{
+			padding:3px;
+			padding-left:10px;
+			padding-right:10px;
+			margin-top:1px;
+			clear:both;
+		}
+		 .nz_theme_nuthetes .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_NUTHETES .nzselectoroptions_d2d_selected .nzoption:hover,
+		 .nz_theme_Nuthetes .nzselectoroptions_d2d_selected .nzoption:hover{
+			background:white;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			color:#6F6F6F;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
